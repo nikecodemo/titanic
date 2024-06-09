@@ -1,7 +1,7 @@
 //https://nikecodemo.github.io/titanic/csvjson.json
 
 async function populate(){
-	const requestURL = "https://nikecodemo.github.io/titanic/csvjson.json"
+	const requestURL = "https://mihaelslipcevic.github.io/my-repository/Titanic/titanic.json"
 	const request = new Request(requestURL) // creazione oggetto.
 	const response = await fetch(request) // modificare parti del contenuto.
 	const titanic = await response.json()
